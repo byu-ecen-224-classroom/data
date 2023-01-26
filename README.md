@@ -52,12 +52,40 @@
 
 [Simple Binary](./simple.bin)
 
+10. Look at one of the commands in your `simple.s` file. Google it and try to figure out what it means and report your findings below.
+
+[Put answer here]
+
 ### Data Types
 
+11. Read the the `stdint.h` `man` page. You'll find that a lot of extra info about standard C libraries are available there. List below the all the different types this library provides.
 
+[Put answer here]
 
-### Boolean Logic Challenges
+12. Create a new file called `data.c`. This program should do the following. For each requirement, place a comment next to or above it so I know you have completed the required step:
+    - Print out the hex equivalent of the `unsigned int`: 3735928559
+    - Create a function that takes in a `uint8_t` as a parameter and prints `char` equivalent. Use it at least 3 times in your `main()`.
+    - Use the `printf()` function at least once that has multiple inline replacements.
+    - Use at least 5 different replacement types in 5 different `printf()` statements.
+    - Use some replacements in `printf()` in unexpected ways (i.e. pass a `char` to replace a `%d`, or something similar). Your program must compile. In a comment next to or above this statement, explain the behavior and why you think it works that way.
 
-### Compilation with GCC
+[Data C](./data.c)
 
-### Gitignore
+13. Compile `data.c` into a binary called `data_sol.bin`.
+
+[Data Binary](./data_sol.bin)
+
+### Miscellaneous Questions
+The following questions will require some research outside of this lab.
+
+14. What is the biggest number an `int` can hold?
+
+[Put answer here]
+
+15. Which is bigger, a `double` or a `float`?
+
+[Put answer here]
+
+16. Arrange the following in order of size: `int`, `double`, `long long`, `short`, `float`, `uint32_t`, `signed short`
+
+[Put answer here]
