@@ -46,6 +46,11 @@
 
 [Simple C Program](./simple.c)
 
+9. Compile the program above in `gcc`. Make sure the executable is named `simple.bin` and that its assenbly code is available as well. You made need to do some aditional research to accomplish this. Remember: `man` and Google are your friends.
+
+[Simple Assembly](./simple.s)
+[Simple Binary](./simple.bin)
+
 ### Data Types
 
 
