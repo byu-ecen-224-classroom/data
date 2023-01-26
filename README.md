@@ -13,4 +13,12 @@
 
 ## Lab Specific Tasks
 
-### Install ZSH
+### A Simple C Program
+
+### Data Types
+
+### Boolean Logic Challenges
+
+### Compilation with GCC
+
+### Gitignore
